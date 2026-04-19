@@ -3,7 +3,7 @@ import pandas as pd
 def extract_clean_phytoplankton_data(input_file, output_file):
     # The final set of 10 parameters
     target_columns = [
-        'Lat_Dec', 'Lon_Dec', 'T_degC', 'Salnty', 
+        'Date','Lat_Dec', 'Lon_Dec', 'T_degC', 'Salnty', 
         'O2ml_L', 'O2Sat', 'ChlorA', 'Phaeop', 
         'Si03uM', 'NO3uM'
     ]
